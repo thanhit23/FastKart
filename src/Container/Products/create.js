@@ -1,9 +1,9 @@
 import 'regenerator-runtime';
 import { map } from 'lodash';
 
-import ProductModel from '../models/Product';
-import { CategoryService, ProductService } from '../services';
-import { URL } from '../constants/firebase';
+import { ProductModel } from '../../models';
+import { CategoryService, ProductService } from '../../services';
+import { URL } from '../../constants/firebase';
 
 const CreateProduct = function() {
   this.categoryService = new CategoryService(URL, 'Token');

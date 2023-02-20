@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel app/view/*.html --open",
+    "start": "parcel src/view/*.html --open",
+    "build": "parcel build",
     "dev": "parcel ./app/view/*.html",
     "clean": "node ./node_modules/parcel-dist-cleaner/distCleaner",
     "devWatch": "parcel watch ./*.html",

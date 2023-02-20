@@ -1,8 +1,8 @@
 import 'regenerator-runtime';
 import { map } from 'lodash';
 
-import { ProductService, CategoryService } from '../services';
-import { URL } from '../constants/firebase';
+import { ProductService, CategoryService } from '../../services';
+import { URL } from '../../constants/firebase';
 
 const Product = function() {
   this.tbody = $('#table-tb');
