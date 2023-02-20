@@ -27,4 +27,3 @@ export const uploadFile = file => {
     console.log(snapshot, 'Uploaded a blob or file!');
   });
 }
-

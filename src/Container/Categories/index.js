@@ -1,8 +1,8 @@
 import 'regenerator-runtime';
 import { map } from 'lodash';
 
-import CategoryService from '../services/CategoryService';
-import { URL } from '../constants/firebase';
+import { CategoryService } from '../../services';
+import { URL } from '../../constants/firebase';
 
 const ListCategory = function() {
   this.tbody = $('#table-tb');
@@ -62,4 +62,3 @@ ListCategory.prototype = {
   
 const listCategory = new ListCategory();
 listCategory.initial();
-

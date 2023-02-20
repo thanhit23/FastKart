@@ -1,7 +1,7 @@
 import 'regenerator-runtime';
-import CategoryModel from '../models/Category';
-import CategoryService from '../services/CategoryService';
-import { URL } from '../constants/firebase';
+import { CategoryModel } from '../../models';
+import { CategoryService } from '../../services';
+import { URL } from '../../constants/firebase';
 
 const CreateCategory = function() {
   this.name = $('#name');

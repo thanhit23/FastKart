@@ -1,10 +1,10 @@
 import 'regenerator-runtime';
 import { map } from 'lodash';
 
-import ProductModel from '../models/Product';
-import { CategoryService, ProductService} from '../services';
-import { URL } from '../constants/firebase';
-import { readParams } from '../helpers/Url';
+import { ProductModel } from '../../models';
+import { CategoryService, ProductService} from '../../services';
+import { URL } from '../../constants/firebase';
+import { readParams } from '../../helpers/Url';
 
 const EditProduct = function() {
   this.url = location.href;
